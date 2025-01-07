@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src",
+    "format": "eslint ./src --fix",
     "start": "node src/server.js"
   },
   "dependencies": {
