@@ -8,8 +8,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./src",
-    "format": "eslint ./src --fix",
+    "lint": "prettier -c .prettierrc --check './src/**/*.{js,jsx}' && eslint ./src",
+    "format": "prettier -c .prettierrc --write './src/**/*.{js,jsx}' && eslint ./src --fix",
     "start": "node src/server.js"
   },
   "dependencies": {
