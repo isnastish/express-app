@@ -40,7 +40,6 @@ app.post("/signup", async (req, res) => {
 
     /* eslint-disable-next-line no-console */
     console.log(`added document with ID: ${result.insertedId}`);
-
   } catch (err) {
     res.status(500).send(err);
     return;
