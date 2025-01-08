@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier -c .prettierrc --check './src/**/*.{js,jsx}' && eslint ./src",
     "format": "prettier -c .prettierrc --write './src/**/*.{js,jsx}' && eslint ./src --fix",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "prepare": "husky"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
