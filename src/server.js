@@ -9,6 +9,7 @@ app.post("/login", async (req, res) => {
   const { username, password } = req.body;
   /* eslint-disable-next-line no-console */
   console.log(`username: ${username}, password: ${password}`);
+
   res.send("Ok");
 });
 
