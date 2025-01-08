@@ -11,6 +11,7 @@
     "lint": "prettier -c .prettierrc --check './src/**/*.{js,jsx}' && eslint ./src",
     "format": "prettier -c .prettierrc --write './src/**/*.{js,jsx}' && eslint ./src --fix",
     "start": "node src/server.js",
+    "debug": "node --inspect src/server.js",
     "prepare": "husky"
   },
   "dependencies": {
